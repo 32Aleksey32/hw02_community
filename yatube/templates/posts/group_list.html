@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 {% block title %}
-Записи сообщества Лев Толстой
+  Записи сообщества {{ group.title }}
 {% endblock %}
 
 
 {% block content %}
-  <h1>Лев Толстой – зеркало русской революции.</h1>
+  <h1>{{ group.title }}</h1>
   <p>Группа тайных поклонников графа.</p>
 {% for post in posts %}
 <article>
