@@ -27,3 +27,6 @@ class Post(models.Model):
         null=True, blank=True,
         related_name='posts'
     )
+
+    def __str__(self):
+        return self.text
