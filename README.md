@@ -1,4 +1,4 @@
-# backend_community_homework, спринт №3 в Яндекс.Практикум
+# backend_community_homework - спринт №3 в Яндекс.Практикум
 
 ## Спринт 3 - Сообщества
 
